@@ -1,0 +1,11 @@
+import math
+print("entrer l'abscisse de la premier point")
+x1=float(input())
+print("entrer l'ordonnée de la premier point ")
+y1=float(input())
+print("entrer l'abscisse de la deuxieme point")
+x2=float(input())
+print("entrer l'ordonnée de la deuxieme point")
+y2=float(input())
+d=math.sqrt(((x2-x1)**2)+((y2-y1)**2))
+print("la distance entre les deux point est :",d)

@@ -1,0 +1,14 @@
+def filtrer_par_longueur_minimale(liste_chaines, longueur_minimale):
+    chaines_filtrées = []
+
+    for chaine in liste_chaines:
+        if len(chaine) >= longueur_minimale:
+            chaines_filtrées.append(chaine)
+    return chaines_filtrées
+
+Liste_Character = ["hamid", "mohamed", "rachid", "kotoubia", "casablanca"]
+longueur_minimale_specifiee = 8
+
+Liste_Filtre = filtrer_par_longueur_minimale(Liste_Character, longueur_minimale_specifiee)
+
+print("Chaînes filtrées par longueur minimale :", Liste_Filtre)
